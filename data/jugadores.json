@@ -1,0 +1,16 @@
+{
+    "JG2617": {
+        "nombre": "ANDRES",
+        "dorsal": 33,
+        "posicion": "Portero",
+        "equipo_id": "EQ5794",
+        "fecha_nacimiento": "23/02/2000",
+        "edad": 25,
+        "nacionalidad": "VENO",
+        "fecha_registro": "25/07/2025 06:01:27",
+        "activo": true,
+        "historial_equipos": [
+            "EQ5794"
+        ]
+    }
+}

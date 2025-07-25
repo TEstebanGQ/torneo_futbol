@@ -46,7 +46,7 @@ def inicializar_sistema():
     ]
     
     for archivo, estructura in archivos:
-        cf.initializeJson(archivo, estructura)
+        cf.initializeJson(archivo, estructura)  # Corregido: manteniendo la I mayúscula
 
 def main():
     """Función principal del programa"""
