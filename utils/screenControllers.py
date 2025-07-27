@@ -1,5 +1,6 @@
 import os
 import sys
+<<<<<<< HEAD
 import time
 
 def pausar_pantalla():
@@ -69,3 +70,17 @@ def mostrar_progress_bar(progreso: int, total: int, longitud: int = 30):
     bloques = int((progreso / total) * longitud)
     barra = "█" * bloques + "-" * (longitud - bloques)
     print(f"[{barra}] {porcentaje:.2f}% ({progreso}/{total})", end="\r")
+=======
+
+def pausar_pantalla():
+    if sys.platform=="linux" or sys.platform=="darwin":
+        input('...')
+    else:
+        os.system('pause')
+        
+def limpiar_pantalla():
+    if sys.platform=="linux" or sys.platform=="darwin":
+        os.system('clear')
+    else:
+        os.system('cls')
+>>>>>>> 5c19e46 (primer)
